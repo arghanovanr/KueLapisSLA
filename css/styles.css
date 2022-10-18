@@ -45,6 +45,10 @@ h1 {
     width: 80%;
 }
 
+.showcase-image {
+    width: 60%;
+}
+
 #Pricing {
     padding: 100px;
     text-align: center;
@@ -52,4 +56,9 @@ h1 {
 
 .pricing-column {
     padding: 2% 3%;
+}
+
+#Product {
+    padding: 7% 15%;
+    text-align: center;
 }
