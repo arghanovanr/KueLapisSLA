@@ -1,3 +1,9 @@
+@media (max-width:767px) {
+    #title {
+        text-align: center;
+    }
+}
+
 #title {
     background-color: #d9534f;
 }
