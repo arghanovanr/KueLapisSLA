@@ -40,3 +40,16 @@ h1 {
 .title-image {
     width: 80%;
 }
+
+.product-image {
+    width: 80%;
+}
+
+#Pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
