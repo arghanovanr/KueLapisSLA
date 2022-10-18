@@ -62,3 +62,12 @@ h1 {
     padding: 7% 15%;
     text-align: center;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-inner {
+    margin-top: 2%;
+}
