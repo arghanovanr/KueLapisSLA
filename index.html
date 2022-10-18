@@ -5,14 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--Bootstrap Script -->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
         crossorigin="anonymous"></script>
+
+    <!--Font Script-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!--CSS Stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>SLABakery</title>
 </head>
 
@@ -20,32 +33,47 @@
 
     <section id="title">
 
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-md navbar-light bg-warning">
-            <a class="navbar-brand" href="">SLABakery</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a class="navbar-brand" href="">SLABakery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarToggler">
+                <div class="collapse navbar-collapse" id="navbarToggler">
 
 
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Produk</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Harga</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Kontak</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Produk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Harga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Heading Page-->
+            <div class="row">
+                <div class="col-md">
+                    <h1>Kue Lapis</h1>
+                    <h4>Kue Lapis adalah salah satu jenis kue basah tradisional dari Indonesia, Kue ini memiliki cita
+                        rasa
+                        yang manis dengan tekstur yang lembut namun kokoh</h4>
+                </div>
+                <div class="col-md">
+                    <img class="title-image" src="images/KueNanas.png" alt="Kue Lapis" style="text-align:center;">
+                </div>
             </div>
-        </nav>
-
+        </div>
     </section>
+
 </body>
 
 </html>
