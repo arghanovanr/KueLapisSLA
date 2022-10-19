@@ -92,4 +92,16 @@ h1 {
     #Pricing {
         padding: 7% 7%;
     }
+
+    .title-image {
+        width: 0%;
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .nav-item {
+        margin-bottom: 5%;
+    }
 }
