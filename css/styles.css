@@ -1,11 +1,21 @@
-#title {
-    background-color: #d9534f;
+/*   Font    */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
-
-body {
-    font-family: 'Montserrat';
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
 }
+
+/*   Navigation Bar    */
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -22,25 +32,19 @@ body {
 }
 
 .nav-link {
-    font-family: 'Montserrat';
+
     font-weight: lighter;
 }
+
+/* Container */
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
+/*   Image    */
 .title-image {
-    width: 80%;
+    width: 50%;
     position: relative;
     top: 50%;
     left: 50%;
@@ -55,19 +59,15 @@ h1 {
     width: 60%;
 }
 
-#Pricing {
-    padding: 25px 15%;
-    text-align: center;
-}
 
+
+/* Pricing */
 .pricing-column {
     padding: 2% 3%;
 }
 
-#Product {
-    padding: 7% 15%;
-    text-align: center;
-}
+
+/* Carousel */
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -78,6 +78,22 @@ h1 {
     margin-top: 2%;
 }
 
+
+/* Section */
+#title {
+    background-color: #894e3f;
+}
+
+#Product {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#Pricing {
+    padding: 25px 15%;
+    text-align: center;
+}
+
 #CTA {
     padding: 7% 15%;
     text-align: center;
@@ -86,9 +102,10 @@ h1 {
 #Footer {
     text-align: center;
     padding: 3%;
-    background-color: #d9534f;
+    background-color: #894e3f;
 }
 
+/* Mobile CSS */
 @media (max-width:767px) {
     #title {
         text-align: center;
