@@ -30,6 +30,8 @@ body {
     padding: 3% 15%;
 }
 
+
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -54,7 +56,7 @@ h1 {
 }
 
 #Pricing {
-    padding: 100px;
+    padding: 25px 15%;
     text-align: center;
 }
 
@@ -74,6 +76,17 @@ h1 {
 
 .carousel-inner {
     margin-top: 2%;
+}
+
+#CTA {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#Footer {
+    text-align: center;
+    padding: 3%;
+    background-color: #d9534f;
 }
 
 @media (max-width:767px) {
